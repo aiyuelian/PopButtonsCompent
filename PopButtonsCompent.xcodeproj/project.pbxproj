@@ -12,16 +12,21 @@
 		DDC7E777183A1A65005BEE16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC7E776183A1A65005BEE16 /* UIKit.framework */; };
 		DDC7E77D183A1A65005BEE16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E77B183A1A65005BEE16 /* InfoPlist.strings */; };
 		DDC7E77F183A1A65005BEE16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E77E183A1A65005BEE16 /* main.m */; };
-		DDC7E783183A1A65005BEE16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E782183A1A65005BEE16 /* AppDelegate.m */; };
-		DDC7E786183A1A65005BEE16 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E784183A1A65005BEE16 /* Main_iPhone.storyboard */; };
-		DDC7E789183A1A65005BEE16 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E787183A1A65005BEE16 /* Main_iPad.storyboard */; };
-		DDC7E78C183A1A65005BEE16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E78B183A1A65005BEE16 /* ViewController.m */; };
-		DDC7E78E183A1A65005BEE16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E78D183A1A65005BEE16 /* Images.xcassets */; };
 		DDC7E795183A1A65005BEE16 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC7E794183A1A65005BEE16 /* XCTest.framework */; };
 		DDC7E796183A1A65005BEE16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC7E772183A1A65005BEE16 /* Foundation.framework */; };
 		DDC7E797183A1A65005BEE16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC7E776183A1A65005BEE16 /* UIKit.framework */; };
 		DDC7E79F183A1A65005BEE16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E79D183A1A65005BEE16 /* InfoPlist.strings */; };
 		DDC7E7A1183A1A65005BEE16 /* PopButtonsCompentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E7A0183A1A65005BEE16 /* PopButtonsCompentTests.m */; };
+		DDC7E7BC183A1A95005BEE16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E7AC183A1A95005BEE16 /* AppDelegate.m */; };
+		DDC7E7BD183A1A95005BEE16 /* AURosetteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E7AF183A1A95005BEE16 /* AURosetteItem.m */; };
+		DDC7E7BE183A1A95005BEE16 /* AURosetteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E7B1183A1A95005BEE16 /* AURosetteView.m */; };
+		DDC7E7BF183A1A95005BEE16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7E7B4183A1A95005BEE16 /* ViewController.m */; };
+		DDC7E7C0183A1A95005BEE16 /* rosetta_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E7B6183A1A95005BEE16 /* rosetta_facebook.png */; };
+		DDC7E7C1183A1A95005BEE16 /* rosetta_leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E7B7183A1A95005BEE16 /* rosetta_leaf.png */; };
+		DDC7E7C2183A1A95005BEE16 /* rosetta_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E7B8183A1A95005BEE16 /* rosetta_mail.png */; };
+		DDC7E7C3183A1A95005BEE16 /* rosetta_off.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E7B9183A1A95005BEE16 /* rosetta_off.png */; };
+		DDC7E7C4183A1A95005BEE16 /* rosetta_on.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E7BA183A1A95005BEE16 /* rosetta_on.png */; };
+		DDC7E7C5183A1A95005BEE16 /* rosetta_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC7E7BB183A1A95005BEE16 /* rosetta_twitter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +48,25 @@
 		DDC7E77C183A1A65005BEE16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDC7E77E183A1A65005BEE16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDC7E780183A1A65005BEE16 /* PopButtonsCompent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopButtonsCompent-Prefix.pch"; sourceTree = "<group>"; };
-		DDC7E781183A1A65005BEE16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DDC7E782183A1A65005BEE16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDC7E785183A1A65005BEE16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		DDC7E788183A1A65005BEE16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		DDC7E78A183A1A65005BEE16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DDC7E78B183A1A65005BEE16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DDC7E78D183A1A65005BEE16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DDC7E793183A1A65005BEE16 /* PopButtonsCompentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopButtonsCompentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC7E794183A1A65005BEE16 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DDC7E79C183A1A65005BEE16 /* PopButtonsCompentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopButtonsCompentTests-Info.plist"; sourceTree = "<group>"; };
 		DDC7E79E183A1A65005BEE16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDC7E7A0183A1A65005BEE16 /* PopButtonsCompentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopButtonsCompentTests.m; sourceTree = "<group>"; };
+		DDC7E7AB183A1A95005BEE16 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC7E7AC183A1A95005BEE16 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC7E7AE183A1A95005BEE16 /* AURosetteItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AURosetteItem.h; sourceTree = "<group>"; };
+		DDC7E7AF183A1A95005BEE16 /* AURosetteItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AURosetteItem.m; sourceTree = "<group>"; };
+		DDC7E7B0183A1A95005BEE16 /* AURosetteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AURosetteView.h; sourceTree = "<group>"; };
+		DDC7E7B1183A1A95005BEE16 /* AURosetteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AURosetteView.m; sourceTree = "<group>"; };
+		DDC7E7B3183A1A95005BEE16 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDC7E7B4183A1A95005BEE16 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC7E7B6183A1A95005BEE16 /* rosetta_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosetta_facebook.png; sourceTree = "<group>"; };
+		DDC7E7B7183A1A95005BEE16 /* rosetta_leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosetta_leaf.png; sourceTree = "<group>"; };
+		DDC7E7B8183A1A95005BEE16 /* rosetta_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosetta_mail.png; sourceTree = "<group>"; };
+		DDC7E7B9183A1A95005BEE16 /* rosetta_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosetta_off.png; sourceTree = "<group>"; };
+		DDC7E7BA183A1A95005BEE16 /* rosetta_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosetta_on.png; sourceTree = "<group>"; };
+		DDC7E7BB183A1A95005BEE16 /* rosetta_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosetta_twitter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,13 +126,10 @@
 		DDC7E778183A1A65005BEE16 /* PopButtonsCompent */ = {
 			isa = PBXGroup;
 			children = (
-				DDC7E781183A1A65005BEE16 /* AppDelegate.h */,
-				DDC7E782183A1A65005BEE16 /* AppDelegate.m */,
-				DDC7E784183A1A65005BEE16 /* Main_iPhone.storyboard */,
-				DDC7E787183A1A65005BEE16 /* Main_iPad.storyboard */,
-				DDC7E78A183A1A65005BEE16 /* ViewController.h */,
-				DDC7E78B183A1A65005BEE16 /* ViewController.m */,
-				DDC7E78D183A1A65005BEE16 /* Images.xcassets */,
+				DDC7E7AA183A1A95005BEE16 /* AppDelegate */,
+				DDC7E7AD183A1A95005BEE16 /* Classes */,
+				DDC7E7B2183A1A95005BEE16 /* MainController */,
+				DDC7E7B5183A1A95005BEE16 /* Resources */,
 				DDC7E779183A1A65005BEE16 /* Supporting Files */,
 			);
 			path = PopButtonsCompent;
@@ -153,6 +162,48 @@
 				DDC7E79D183A1A65005BEE16 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC7E7AA183A1A95005BEE16 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7E7AB183A1A95005BEE16 /* AppDelegate.h */,
+				DDC7E7AC183A1A95005BEE16 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DDC7E7AD183A1A95005BEE16 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7E7AE183A1A95005BEE16 /* AURosetteItem.h */,
+				DDC7E7AF183A1A95005BEE16 /* AURosetteItem.m */,
+				DDC7E7B0183A1A95005BEE16 /* AURosetteView.h */,
+				DDC7E7B1183A1A95005BEE16 /* AURosetteView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DDC7E7B2183A1A95005BEE16 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7E7B3183A1A95005BEE16 /* ViewController.h */,
+				DDC7E7B4183A1A95005BEE16 /* ViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		DDC7E7B5183A1A95005BEE16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7E7B6183A1A95005BEE16 /* rosetta_facebook.png */,
+				DDC7E7B7183A1A95005BEE16 /* rosetta_leaf.png */,
+				DDC7E7B8183A1A95005BEE16 /* rosetta_mail.png */,
+				DDC7E7B9183A1A95005BEE16 /* rosetta_off.png */,
+				DDC7E7BA183A1A95005BEE16 /* rosetta_on.png */,
+				DDC7E7BB183A1A95005BEE16 /* rosetta_twitter.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +282,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC7E789183A1A65005BEE16 /* Main_iPad.storyboard in Resources */,
-				DDC7E78E183A1A65005BEE16 /* Images.xcassets in Resources */,
-				DDC7E786183A1A65005BEE16 /* Main_iPhone.storyboard in Resources */,
+				DDC7E7C5183A1A95005BEE16 /* rosetta_twitter.png in Resources */,
+				DDC7E7C2183A1A95005BEE16 /* rosetta_mail.png in Resources */,
+				DDC7E7C4183A1A95005BEE16 /* rosetta_on.png in Resources */,
+				DDC7E7C1183A1A95005BEE16 /* rosetta_leaf.png in Resources */,
+				DDC7E7C0183A1A95005BEE16 /* rosetta_facebook.png in Resources */,
+				DDC7E7C3183A1A95005BEE16 /* rosetta_off.png in Resources */,
 				DDC7E77D183A1A65005BEE16 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC7E78C183A1A65005BEE16 /* ViewController.m in Sources */,
-				DDC7E783183A1A65005BEE16 /* AppDelegate.m in Sources */,
+				DDC7E7BD183A1A95005BEE16 /* AURosetteItem.m in Sources */,
+				DDC7E7BE183A1A95005BEE16 /* AURosetteView.m in Sources */,
+				DDC7E7BC183A1A95005BEE16 /* AppDelegate.m in Sources */,
 				DDC7E77F183A1A65005BEE16 /* main.m in Sources */,
+				DDC7E7BF183A1A95005BEE16 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,22 +340,6 @@
 				DDC7E77C183A1A65005BEE16 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DDC7E784183A1A65005BEE16 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDC7E785183A1A65005BEE16 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		DDC7E787183A1A65005BEE16 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDC7E788183A1A65005BEE16 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		DDC7E79D183A1A65005BEE16 /* InfoPlist.strings */ = {
@@ -474,6 +514,7 @@
 				DDC7E7A6183A1A65005BEE16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC7E7A7183A1A65005BEE16 /* Build configuration list for PBXNativeTarget "PopButtonsCompentTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +523,7 @@
 				DDC7E7A9183A1A65005BEE16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
